@@ -1,6 +1,7 @@
 import { Epilogue } from 'next/font/google';
 import Image from 'next/image';
 import React from 'react'
+import Section from './Section';
 export const epilogue = Epilogue({ subsets: ["latin"], weight: ["500"] });
 
 export default function Works() {
@@ -22,13 +23,13 @@ export default function Works() {
     </div>
   );
   return (
-    <main className='flex flex-col gap-10 items-center justify-center '>
-      <h1 className={`${epilogue.className} text-3xl md:text-4xl text-center`}>What We Do</h1>
+    <Section id='' className='flex flex-col gap-10 items-center justify-center '>
+      <h1 className={`${epilogue.className} text-4xl lg:text-5xl text-center`}>What We Do</h1>
       <section className="grid md:grid-cols-3 grid-cols-1 gap-10 md:gap-0 w-full mt-5 lg:mt-20">
         <Card img="/images/Rectangle 25.png" />
         <Card img="/images/Rectangle 21.png" />
         <Card img="/images/Skills Card Icon.png" />
       </section>
-    </main>
+    </Section>
   )
 }

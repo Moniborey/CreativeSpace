@@ -1,4 +1,3 @@
-
 import { ReactNode } from "react"
 import Animation from "./Animation"
 
@@ -6,12 +5,14 @@ interface SectionProps{
     id:string,
     className?:string,
     children:ReactNode
+    isHscreen?:boolean
 }
 
 export default function Section({
     className,
     id,
-    children
+    children,
+    isHscreen=true
 }:SectionProps) {
 
 
@@ -19,7 +20,7 @@ export default function Section({
     // <Animation id="">
     <div
     id={id} 
-    className={`relative py-10 section lg:py-32 xl:py-40 overflow-hidden ${className || ''}`}
+    className={`relative ${isHscreen && 'h-screen'} overflow-hidden ${className || ''}`}
     >
       {children}
     </div>

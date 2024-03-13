@@ -1,15 +1,24 @@
 'use client'
 
 import Link from 'next/link'
+import { usePathname } from 'next/navigation';
 import React, { useEffect, useState } from 'react'
 
-type section = 'home' | 'projects' | 'about'
+const sections = [{
+    label:'Home',
+    id:'#home'
+},{
+    label:'Our Projects',
+    id:'#projects'
+},{
+    label:'About Us',
+    id:'#about'
+}]
 
 export default function Navbar() {
 
-    const [section, setSection] = useState<section>('home')
-
     const [scrollPosition, setScrollPosition] = useState(0);
+    const [sectionID, setSectionID] = useState('#home')
 
     const handleScroll = () => {
         const position = window.scrollY;
@@ -28,10 +37,11 @@ export default function Navbar() {
             {scrollPosition < 102 && <section className='text-center'>
                 <p className='text-4xl md:text-5xl'>Logo &#x2015;</p>
             </section>}
-            <section className='text-center space-x-5 md:space-x-10'>
-                <Link href={"#home"} className='text-2xl  bg-white md:px-5 md:py-2 px-2 py-1'>Home</Link>
-                <Link href={'#projects'} className='text-2xl text-gray-800'>Our Projects</Link>
-                <Link href={'#about'} className='text-2xl text-gray-800'>About Us</Link>
+            <section className='text-center text-gray-600 space-x-3 md:space-x-10'>
+                {sections.map((sec,index)=>(
+                    <Link onClick={()=>setSectionID(sec.id)} key={index} href={sec.id} 
+                    className={`${sectionID === sec.id && scrollPosition > 102 ? 'bg-gray-900 text-white' : sectionID === sec.id && 'bg-white text-black'} text-xl md:text-2xl md:px-5 md:py-2 px-3 py-2`}>{sec.label}</Link>
+                ))}
             </section>
         </nav>
     )
