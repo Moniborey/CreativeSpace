@@ -1,8 +1,6 @@
-'use client'
 
-import { ReactNode, useRef } from "react"
-import { MotionDiv } from "./MotionDiv"
-import { useInView } from "framer-motion"
+import { ReactNode } from "react"
+import Animation from "./Animation"
 
 interface SectionProps{
     id:string,
@@ -16,19 +14,15 @@ export default function Section({
     children
 }:SectionProps) {
 
-  const ref = useRef(null)
-  const isInView = useInView(ref,{once:true})
 
   return (
-    <MotionDiv
-    ref={ref}
-    initial={{ opacity: 0, x: 20 }} 
-    whileInView={{opacity:1, x:0}}
-    transition={{easings:['easeIn'],duration:0.4}}
+    // <Animation id="">
+    <div
     id={id} 
     className={`relative py-10 section lg:py-32 xl:py-40 overflow-hidden ${className || ''}`}
     >
       {children}
-    </MotionDiv>
+    </div>
+      // </Animation>
   )
 }
