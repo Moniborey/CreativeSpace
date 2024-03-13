@@ -12,7 +12,7 @@ export default function Section({
     children
 }:SectionProps) {
   return (
-    <div id={id} className={`relative py-10 lg:py-32 xl:py-40  ${className || ''}`}>
+    <div id={id} className={`relative py-10 section lg:py-32 xl:py-40  snap-start overflow-hidden ${className || ''}`}>
       {children}
     </div>
   )
