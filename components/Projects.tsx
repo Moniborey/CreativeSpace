@@ -2,6 +2,7 @@ import { Epilogue } from "next/font/google";
 import Image from "next/image";
 import Section from "./Section";
 import Link from "next/link";
+import MotionDiv from "./MotionDiv";
 const epilogue = Epilogue({ subsets: ["latin"], weight: ["500"] });
 
 
@@ -15,7 +16,7 @@ export default function Projects() {
         width={250}
         height={250}
         alt=""
-        className="w-full h-[20rem] object-cover"
+        className="w-full h-[15rem] md:h-[20rem] object-cover"
       />
       <div className={` ${epilogue.className} flex gap-3 flex-col `}>
         <div className="flex justify-between items-center">
@@ -33,12 +34,11 @@ export default function Projects() {
   return (
     <Section id="projects" className="snap-start">
       <main className="flex flex-col gap-32">
-       
-        <section className="flex flex-col gap-20 px-40">
-          <h1 className={` ${epilogue.className} text-center text-4xl`}>
+        <section className="flex flex-col lg:px-40 p-5">
+          <h1 className={` ${epilogue.className} text-3xl text-center md:text-4xl`}>
             Our Works
           </h1>
-          <div className="grid grid-cols-2 gap-5">
+          <div className="grid grid-cols-1 md:grid-cols-2 mt-5 md:mt-10 gap-5">
             <ProjectCard />
             <ProjectCard />
             <ProjectCard />
