@@ -12,22 +12,22 @@ export interface DatasI {
 const Datas: DatasI[] = [{
     title: 'Achievie',
     img:'achievie.png',
-    techStacks: ['nextjs','tailwindcss','mongodb'],
-    techs:"NextJs, Tailwind, MongoDB",
+    techStacks: ['nextjs','tailwindcss','mongodb','mongoose'],
+    techs:"NextJs, Tailwind, MongoDB, Mongoose",
     url: 'achievie.vercel.app',
     type:'fullstack'
 }, {
     title: 'Brainwave',
     img:'brainwave.png',
-    techStacks: ['nextjs','tailwindcss'],
-    techs:"Nextjs, Tailwind , ",
+    techStacks: ['react','tailwindcss'],
+    techs:"React, Tailwind",
     url: 'brainwave-lilac.vercel.app',
     type:'ui'
 },{
     title: 'Quizzical',
     img:'quizzical.png',
     techStacks: ['nextjs','tailwindcss'],
-    techs:"NextJs, Tailwind,",
+    techs:"NextJs, Tailwind",
     url: 'quizzical-two-rosy.vercel.app',
     type:'frontend'
 },{
@@ -40,8 +40,8 @@ const Datas: DatasI[] = [{
 },{
     title: 'Travel Camp',
     img:'travelUI.png',
-    techStacks: ['nextjs','tailwindcss'],
-    techs:"NextJs, Tailwind",
+    techStacks: ['react','tailwindcss'],
+    techs:"React, Tailwind",
     url: 'travelui-beige.vercel.app',
     type:'ui'
 },{

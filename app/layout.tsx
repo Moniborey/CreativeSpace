@@ -2,8 +2,6 @@ import Navbar from "@/components/Navbar";
 import type { Metadata } from "next";
 import "./globals.css";
 
-// export const inter = Inter({ subsets: ["latin"] });
-
 export const metadata: Metadata = {
   title: "Creative Space",
   description: "",

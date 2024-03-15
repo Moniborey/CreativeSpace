@@ -13,15 +13,20 @@ const hashColor = {
 
 export default function Projects() {
   const ProjectCard = ({ project }: { project: DatasI }) => (
-    <div className="flex relative flex-col gap-3">
-      <div className="hover:border border-black transition-all ">
+    <div className="flex flex-col gap-3">
+      <div className="group relative">
         <Image
           src={`/projectimg/${project.img}`}
           width={2500000}
           height={2500000}
           alt=""
-          className="w-full hover:scale-95 transition-all h-[12rem] md:h-[15rem] lg:h-[22rem]"
+          className="w-full h-[12rem] transition-all md:h-[15rem] lg:h-[22rem]"
         />
+        <div className="duration-500 bg-gradient-to-t from-gray-800 to-transparent group-hover:opacity-50 opacity-0 md:block hidden transition-all bottom-0 text-white min-h-0 group-hover:min-h-full w-full absolute">
+          <div className="text-xl text-black absolute bottom-5 left-1/2 -translate-x-1/2">
+            hello
+          </div>
+        </div>
       </div>
       <div className={` ${epilogue.className} flex gap-3 flex-col `}>
         <div className="flex justify-between items-center">
@@ -34,15 +39,15 @@ export default function Projects() {
             {project.url}
           </Link>
         </div>
-        <div className="flex items-center text-gray-800 -mt-3 text-sm gap-1">
+        <div className="flex items-center text-gray-500 -mt-3 text-sm gap-1">
           <h1 className={`${hashColor[project.type]}`}>#</h1>
-          <h1 className={project.type === "ui" ? "" : "first-letter:uppercase"}>
+          <h1>
             {project.type}
           </h1>
         </div>
         <div className="flex items-center gap-1">
-          <p className=" text-sm text-gray-700">Tech Stacks:</p>
-          <p className="text-xs text-gray-400 ">{project.techs}</p>
+          <p className=" text-sm text-gray-600">Tech Stacks:</p>
+          <p className="text-xs text-gray-500 ">{project.techs}</p>
           {/* {project.techStacks.map((stack, index) => (
             <Image
             key={index}
