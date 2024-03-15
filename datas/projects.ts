@@ -1,4 +1,4 @@
-export type projectTypes = 'fullstack' | 'ui' | 'frontend'
+export type projectTypes = 'fullstack' | 'ui' | 'frontend' | 'portfolio'
 
 export interface DatasI {
     title: string,
@@ -72,6 +72,15 @@ const Datas: DatasI[] = [{
     techs:"NextJs, Tailwind",
     url: 'flexgearr.vercel.app',
     type:'frontend'
-}]
+},
+{
+    title: 'Portfolio',
+    img:'portfolio.png',
+    techStacks: ['nextjs','tailwindcss'],
+    techs:"NextJs, Tailwind",
+    url: 'mamlyhua.vercel.app/',
+    type:'portfolio'
+},
+]
 
 export default Datas
