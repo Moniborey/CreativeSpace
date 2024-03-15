@@ -5,7 +5,7 @@ import Section from './Section'
 
 export default function About() {
     return (
-        <Section id='about' className='lg:px-20 px-5 flex flex-col items-center lg:flex-row lg:gap-10'>
+        <Section id='about' className='lg:px-20 px-5 flex flex-col items-center lg:flex-row lg:gap-10 pt-24 lg:pt-0'>
             <section className=' w-full flex p-5'>
                 <div className="flex flex-col gap-5 lg:gap-7 md:gap-10 xl:gap-9 py-5 text-base md:text-lg">
                     <h1 className={`${epilogue.className} lg:text-5xl text-4xl`}>About Us</h1>
@@ -13,10 +13,10 @@ export default function About() {
                         <li className={`${epilogue.className}  `}>We&apos;re a group of students passionate about building awesome websites. As a startup freelance web development team, we&apos;re here to bring your ideas to life online. </li>
                         <li className={`${epilogue.className}  `}>What sets us apart? Our fresh perspective and dedication to learning. As students, we&apos;re always eager to push boundaries and explore new possibilities.</li>
                     </ul>
-                    <div className='w-full border border-gray-400 px-5'/>
+                    <div className='w-full border border-gray-400 px-5'/> 
                 </div>
             </section>
-            <section className="w-full bg-white lg:w-4/5 flex justify-center items-center lg:items-start">
+            <section className="w-full bg-white lg:w-4/5 flex justi fy-center items-center lg:items-start">
                 <Image
                     src={"/images/Team-pana.png"}
                     width={10000}
@@ -24,6 +24,7 @@ export default function About() {
                     alt="image"
                     className="w-[600px] "
                 />
+ 
             </section>
 
         </Section>
