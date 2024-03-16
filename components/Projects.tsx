@@ -50,22 +50,13 @@ export default function Projects() {
         <div className="flex items-center gap-1">
           <p className=" text-sm text-gray-600">Tech Stacks:</p>
           <p className="text-xs text-gray-500 ">{project.techs}</p>
-          {/* {project.techStacks.map((stack, index) => (
-            <Image
-            key={index}
-            src={`/tech-stack/${stack}.svg`}
-            alt={stack}
-            width={24}
-            height={24}
-            />
-          ))} */}
         </div>
       </div>
     </div>
   );
   return (
     <Section isHscreen={false} id="projects" className="mt-14 md:mt-28 lg:mt-0">
-      <section className="flex flex-col lg:w-[90%] gap-10 md:gap-14 lg:gap-20 mx-auto px-5">
+      <section className="flex flex-col sm:max-w-[700px] lg:max-w-max lg:w-[90%] gap-10 md:gap-14 lg:gap-20 mx-auto px-5">
         <h1
           className={` ${epilogue.className} text-4xl text-center text-gray-800 lg:text-5xl`}
         >
