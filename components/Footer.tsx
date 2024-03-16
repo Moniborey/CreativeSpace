@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function Footer() {
     return (
-        <Section id='' isHscreen={false} className={`bg-gradient-to-b from-transparent via-white to-white text-gray-800 text-xl md:bg-white md:text-2xl lg:text-4xl py-10 mt-20 md:mt-28 lg:mt-0`}>
+        <Section id='' isHscreen={false} className={`bg-gradient-to-b from-transparent via-white to-white text-gray-800 text-xl lg:bg-white md:text-2xl lg:text-4xl py-10 mt-20 md:mt-28 lg:mt-0`}>
             <h1 className='text-center lg:text-7xl text-4xl md:pb-0 text-gray-800 pb-5'>Let&apos;s Connect</h1>
             <div className={`${epilogue.className}`}>
                 <p className='px-5 md:px-10 md:my-10 my-5 text-base lg:text-lg text-gray-700'>Feel free to reach out to us.</p>
