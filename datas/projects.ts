@@ -57,7 +57,7 @@ const Datas: DatasI[] = [{
     techs:"NextJs, Tailwind, Supabase, Shadcn-Ui",
     url: 'wallets-watcher.vercel.app',
     type:'fullstack',
-    desc:''
+    desc:'Wallet-Watcher mission is to simplify your financial management experience. We believe that understanding and controlling your finances should be accessible to everyone.'
 },{
     title: 'Recipebox',
     img:'recipebox.png',
@@ -65,7 +65,7 @@ const Datas: DatasI[] = [{
     techs:"NextJs, Tailwind, Shadcn-Ui, SwiperJs",
     url: 'recipesboxx.netlify.app',
     type:'frontend',
-    desc:''
+    desc:'get recipe by searching or add your ingredients'
 },{
     title: 'Pophorn',
     img:'pophorn.png',
@@ -73,7 +73,7 @@ const Datas: DatasI[] = [{
     techs:"NextJs, Tailwind, Shadcn-Ui, SwiperJs",
     url: 'pophorn.vercel.app',
     type:'ui',
-    desc:''
+    desc:'movie streaming website with ui only'
 },{
     title: 'Flexgear',
     img:'flexgear.png',
@@ -81,7 +81,7 @@ const Datas: DatasI[] = [{
     techs:"NextJs, Tailwind",
     url: 'flexgearr.vercel.app',
     type:'frontend',
-    desc:''
+    desc:'small ecommerce'
 },
 {
     title: 'Portfolio',
@@ -90,7 +90,7 @@ const Datas: DatasI[] = [{
     techs:"NextJs, Tailwind",
     url: 'mamlyhua.vercel.app/',
     type:'portfolio',
-    desc:''
+    desc:'portfolio website for showing project and personal info'
 },
 ]
 
