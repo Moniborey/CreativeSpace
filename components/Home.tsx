@@ -28,7 +28,7 @@ export default function Home() {
                     alt='star'
                     width={20000}
                     height={20000}
-                    className='left-10 opacity-90 hidden md:block size-16 top-10 absolute'
+                    className='left-10 opacity-90  md:block size-9 md:size-16 top-10 absolute'
                 />
                 <BackgroundStars parallaxRef={parallaxRef} />
             </section>
