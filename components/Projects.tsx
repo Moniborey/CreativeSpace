@@ -24,7 +24,7 @@ export default function Projects() {
           className="w-full h-[12rem] transition-all sm:h-[20rem] md:h-[22rem] lg:h-[16rem] xl:h-[22rem]"
         />
         <div className="duration-500 bg-gradient-to-t from-gray-800 to-transparent group-hover:opacity-100 opacity-0 md:block hidden transition-all bottom-0 text-white min-h-0 group-hover:min-h-full w-full absolute">
-          <div className="flex flex-col h-[12rem] text-gray-100 sm:h-[25rem] md:h-[15rem] lg:h-[18rem] xl:h-[22rem] justify-end w-full px-3 -mt-4">
+          <div className="flex flex-col h-[12rem] text-gray-100 md:h-[21.5rem] lg:h-[16rem] xl:h-[22rem] justify-end w-full px-3 -mt-4">
             <h1 className={`${epilogue.className} tracking-wide text-2xl mb-3`}>Overview</h1>
             <p className={`${epilogue.className}`}>{project.desc}</p>
           </div>
