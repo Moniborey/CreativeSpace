@@ -34,7 +34,7 @@ export default function Navbar() {
 
     return (
         <nav className={`fixed top-0 ${scrollPosition > 102 ? 'bg-white' : 'bg-transparent'} left-0 z-50 space-y-4 right-0 py-5`}>
-            {scrollPosition < 102 && <section className='text-center'>
+            {scrollPosition < 102 && <section className='text-center hidden md:block'>
                 <p className='text-4xl md:text-5xl'>Logo &#x2015;</p>
             </section>}
             <section className='text-center text-gray-600 space-x-3 md:space-x-10'>

@@ -25,7 +25,7 @@ export default function Projects() {
         />
         <div className="duration-500 bg-gradient-to-t from-gray-800 to-transparent group-hover:opacity-100 opacity-0 md:block hidden transition-all bottom-0 text-white min-h-0 group-hover:min-h-full w-full absolute">
           <div className="flex flex-col h-[12rem] text-gray-100 sm:h-[25rem] md:h-[15rem] lg:h-[18rem] xl:h-[22rem] justify-end w-full px-3 -mt-4">
-            <h1 className={`${epilogue.className} text-2xl mb-3`}>Overview</h1>
+            <h1 className={`${epilogue.className} tracking-wide text-2xl mb-3`}>Overview</h1>
             <p className={`${epilogue.className}`}>{project.desc}</p>
           </div>
         </div>
@@ -64,14 +64,14 @@ export default function Projects() {
     </div>
   );
   return (
-    <Section isHscreen={false} id="projects">
-      <section className="flex flex-col lg:w-[90%] xl:max-w-[1300px] gap-10 mx-auto p-5">
+    <Section isHscreen={false} id="projects" className="mt-14 md:mt-28 lg:mt-0">
+      <section className="flex flex-col lg:w-[90%] gap-10 md:gap-14 lg:gap-20 mx-auto px-5">
         <h1
           className={` ${epilogue.className} text-4xl text-center text-gray-800 lg:text-5xl`}
         >
           Our Projects
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 mt-5 md:mt-16 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           {Datas.map((project, index: number) => (
             <ProjectCard project={project} key={index} />
           ))}

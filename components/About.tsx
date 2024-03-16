@@ -5,8 +5,8 @@ import Section from './Section'
 
 export default function About() {
     return (
-        <Section id='about' className='lg:px-20 px-5 flex flex-col items-center lg:flex-row lg:gap-10 pt-24 lg:pt-0'>
-            <section className=' w-full flex p-5'>
+        <Section id='about' isHscreen={false} className='lg:px-20 lg:h-screen px-5 flex flex-col items-center lg:flex-row lg:gap-10 mt-14 md:mt-28 lg:mt-0'>
+            <section className=' w-full flex lg:px-5'>
                 <div className="flex flex-col gap-5 lg:gap-7 md:gap-10 xl:gap-9 py-5 text-base md:text-lg">
                     <h1 className={`${epilogue.className} lg:text-5xl text-gray-800 text-4xl`}>About Us</h1>
                     <ul className=' text-gray-600 list-disc pl-4 space-y-2'>
@@ -16,7 +16,7 @@ export default function About() {
                     <div className='w-full border border-gray-400 px-5'/> 
                 </div>
             </section>
-            <section className="w-full bg-white lg:w-4/5 flex justi fy-center items-center lg:items-start">
+            <section className="w-full bg-white lg:w-4/5 flex justify-center items-center lg:items-start">
                 <Image
                     src={"/images/Team-pana.png"}
                     width={10000}

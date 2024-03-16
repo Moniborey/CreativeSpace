@@ -10,11 +10,11 @@ export default function Home() {
     const parallaxRef = useRef(null)
 
     return (
-        <Section id='home' isHscreen={false} className='lg:h-screen lg:grid lg:place-items-center'>
-            <section ref={parallaxRef} className='bg-white mt-32 relative lg:mt-0 lg:w-[65%] xl:w-[55%] mx-auto md:py-24 py-10 md:gap-5 flex items-center justify-center flex-col font-light'>
-                <p className='lg:text-5xl text-4xl text-gray-700'>Hi, We Are</p>
+        <Section id='home' isHscreen={false} className='lg:h-screen pt-28 md:pt-52 lg:pt-0 lg:grid lg:place-items-center'>
+            <section ref={parallaxRef} className='bg-white relative lg:w-[65%] xl:w-[55%] mx-auto md:py-24 py-10 md:gap-5 flex items-center justify-center flex-col font-light'>
+                <p className='md:text-5xl text-4xl text-gray-700'>Hi, We Are</p>
                 <div className='relative w-fit'>
-                    <p className='lg:text-8xl text-5xl text-gray-800'>Creative S<span className='underline'>pace</span></p>
+                    <p className='lg:text-8xl md:text-7xl text-5xl text-gray-800'>Creative S<span className='underline'>pace</span></p>
                     <Image
                         src={'/images/Vector (1).png'}
                         alt='star'
