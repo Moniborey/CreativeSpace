@@ -1,5 +1,4 @@
 import { ReactNode } from "react"
-import Animation from "./Animation"
 
 interface SectionProps{
     id:string,

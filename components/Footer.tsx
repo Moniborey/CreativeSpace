@@ -5,8 +5,8 @@ import Link from 'next/link'
 
 export default function Footer() {
     return (
-        <Section id='' isHscreen={false} className={`bg-white text-3xl lg:text-4xl py-10`}>
-            <h1 className='text-center lg:text-7xl text-5xl md:pb-0 pb-5'>Let&apos;s Connect</h1>
+        <Section id='' isHscreen={false} className={`bg-white text-gray-800 text-3xl lg:text-4xl py-10`}>
+            <h1 className='text-center lg:text-7xl text-5xl md:pb-0 text-gray-800 pb-5'>Let&apos;s Connect</h1>
             <div className={`${epilogue.className}`}>
                 <p className='px-5 md:px-10 md:my-10 my-5 text-base lg:text-lg text-gray-700'>Feel free to reach out to us.</p>
                 <Link href={''} className='md:py-4 py-2 border-b-2 flex items-center border-black'>

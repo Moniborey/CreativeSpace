@@ -13,7 +13,7 @@ export default function Works() {
         height={100}
         alt="idk"
       />
-      <h1 className={` ${epilogue.className} text-2xl font-semibold`}>Title</h1>
+      <h1 className={` ${epilogue.className} text-2xl text-gray-800 font-semibold`}>Title</h1>
       <p className="text-gray-500 text-sm w-4/5 md:w-3/5 px-5 md:px-0 mx-auto">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit quas
         asperiores velit voluptatem eius. Quaerat quod corrupti cum ipsam
@@ -24,7 +24,7 @@ export default function Works() {
   );
   return (
     <Section id='' className='flex flex-col gap-10 items-center justify-center '>
-      <h1 className={`${epilogue.className} text-4xl lg:text-5xl text-center`}>What We Do</h1>
+      <h1 className={`${epilogue.className} text-4xl lg:text-5xl text-gray-800 text-center`}>What We Do</h1>
       <section className="grid md:grid-cols-3 grid-cols-1 gap-10 md:gap-0 w-full mt-5 lg:mt-20">
         <Card img="/images/Rectangle 25.png" />
         <Card img="/images/Rectangle 21.png" />

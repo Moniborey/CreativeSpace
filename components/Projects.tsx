@@ -14,7 +14,7 @@ const hashColor = {
 
 export default function Projects() {
   const ProjectCard = ({ project }: { project: DatasI }) => (
-    <div className="flex flex-col gap-3 md:hover:scale-[1.01] duration-300 group">
+    <div className="flex flex-col gap-3 md:hover:scale-[1.01] duration-300">
       <div className="group relative">
         <Image
           src={`/projectimg/${project.img}`}
@@ -24,11 +24,9 @@ export default function Projects() {
           className="w-full h-[12rem] transition-all sm:h-[25rem] md:h-[15rem] lg:h-[18rem] xl:h-[22rem]"
         />
         <div className="duration-500 bg-gradient-to-t from-gray-800 to-transparent group-hover:opacity-100 opacity-0 md:block hidden transition-all bottom-0 text-white min-h-0 group-hover:min-h-full w-full absolute">
-          <div className="flex  h-[12rem] sm:h-[25rem] md:h-[15rem] lg:h-[18rem] xl:h-[22rem] items-end w-full px-3 -mt-4 ">
-            <p className={`${epilogue.className}`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repellat tenetur voluptatibus ratione, nisi soluta quia aspernatur! Repellat illo, id consequatur architecto ab esse nam ipsam quo cupiditate, tenetur iure.</p>
-          </div>
-          <div className="text-xl text-black absolute bottom-5 left-1/2 -translate-x-1/2">
-            hello
+          <div className="flex flex-col h-[12rem] text-gray-100 sm:h-[25rem] md:h-[15rem] lg:h-[18rem] xl:h-[22rem] justify-end w-full px-3 -mt-4">
+            <h1 className={`${epilogue.className} text-2xl mb-3`}>Overview</h1>
+            <p className={`${epilogue.className}`}>{project.desc}</p>
           </div>
         </div>
       </div>
@@ -69,9 +67,9 @@ export default function Projects() {
     <Section isHscreen={false} id="projects">
       <section className="flex flex-col lg:w-[90%] xl:max-w-[1300px] gap-10 mx-auto p-5">
         <h1
-          className={` ${epilogue.className} text-4xl text-center lg:text-5xl`}
+          className={` ${epilogue.className} text-4xl text-center text-gray-800 lg:text-5xl`}
         >
-          Our Works
+          Our Projects
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 mt-5 md:mt-16 gap-10">
           {Datas.map((project, index: number) => (

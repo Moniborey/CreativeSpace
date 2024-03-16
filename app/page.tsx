@@ -8,7 +8,7 @@ import Works from '@/components/Works'
 export default function HomePage() {
 
   return (
-    <div className='bg-fixed bg-[url(/images/heroBG.png)] scroll-smooth'>
+    <div className='bg-fixed bg-[url(/images/heroBG.png)] relative scroll-smooth'>
       <Animation id=''>
         <Home />
       </Animation>

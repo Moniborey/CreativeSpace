@@ -8,7 +8,7 @@ export default function About() {
         <Section id='about' className='lg:px-20 px-5 flex flex-col items-center lg:flex-row lg:gap-10 pt-24 lg:pt-0'>
             <section className=' w-full flex p-5'>
                 <div className="flex flex-col gap-5 lg:gap-7 md:gap-10 xl:gap-9 py-5 text-base md:text-lg">
-                    <h1 className={`${epilogue.className} lg:text-5xl text-4xl`}>About Us</h1>
+                    <h1 className={`${epilogue.className} lg:text-5xl text-gray-800 text-4xl`}>About Us</h1>
                     <ul className=' text-gray-600 list-disc pl-4 space-y-2'>
                         <li className={`${epilogue.className}  `}>We&apos;re a group of students passionate about building awesome websites. As a startup freelance web development team, we&apos;re here to bring your ideas to life online. </li>
                         <li className={`${epilogue.className}  `}>What sets us apart? Our fresh perspective and dedication to learning. As students, we&apos;re always eager to push boundaries and explore new possibilities.</li>
