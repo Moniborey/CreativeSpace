@@ -5,7 +5,7 @@ import Section from './Section'
 
 export default function About() {
     return (
-        <Section id='about' isHscreen={false} className='lg:px-20 lg:h-screen px-5 flex flex-col items-center lg:flex-row lg:gap-10 mt-14 md:mt-28 lg:mt-0'>
+        <Section id='about' isHscreen={false} className='lg:px-20 lg:h-screen px-5 flex flex-col items-center lg:flex-row lg:gap-10 bg-gradient-to-b from-transparent via-transparent to-white mt-14 md:mt-28 lg:mt-0'>
             <section className=' w-full flex lg:px-5'>
                 <div className="flex flex-col gap-5 lg:gap-7 md:gap-10 xl:gap-9 py-5 text-base md:text-lg">
                     <h1 className={`${epilogue.className} lg:text-5xl text-gray-800 text-4xl`}>About Us</h1>
