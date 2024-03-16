@@ -17,11 +17,11 @@ export default function HomePage() {
         <Works />
       </Animation>
       <Projects />
+      </main>
       <Animation id=''>
         <About />
       </Animation>
       <Footer />
-      </main>
     </div>
   )
 }
