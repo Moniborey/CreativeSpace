@@ -23,7 +23,7 @@ export default function Works() {
     </div>
   );
   return (
-    <Section id='' className='flex flex-col gap-10 items-center justify-center '>
+    <Section id='' className='flex flex-col gap-10 items-center justify-center'>
       <h1 className={`${epilogue.className} text-4xl lg:text-5xl text-gray-800 text-center`}>What We Do</h1>
       <section className="grid md:grid-cols-3 grid-cols-1 gap-10 md:gap-0 w-full mt-5 lg:mt-20">
         <Card img="/images/Rectangle 25.png" />
