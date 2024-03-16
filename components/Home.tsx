@@ -12,6 +12,13 @@ export default function Home() {
     return (
         <Section id='home' isHscreen={false} className='lg:h-screen pt-28 md:pt-52 lg:pt-0 lg:grid lg:place-items-center'>
             <section ref={parallaxRef} className='bg-white relative lg:w-[65%] xl:w-[55%] mx-auto md:py-24 py-10 md:gap-5 flex items-center justify-center flex-col font-light'>
+                <Image 
+                src={''}
+                alt='logo'
+                width={10000}
+                height={10000}
+                className='size-12 md:hidden border mb-8'
+                />
                 <p className='md:text-5xl text-4xl text-gray-700'>Hi, We Are</p>
                 <div className='relative w-fit'>
                     <p className='lg:text-8xl md:text-7xl text-5xl text-gray-800'>Creative S<span className='underline'>pace</span></p>
