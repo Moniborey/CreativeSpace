@@ -88,7 +88,7 @@ const Datas: DatasI[] = [{
     img:'portfolio.png',
     techStacks: ['nextjs','tailwindcss'],
     techs:"NextJs, Tailwind",
-    url: 'mamlyhua.vercel.app/',
+    url: 'mamlyhua.vercel.app',
     type:'portfolio',
     desc:'portfolio website for showing project and personal info'
 },

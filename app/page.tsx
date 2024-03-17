@@ -9,7 +9,7 @@ export default function HomePage() {
 
   return (
     <div className='bg-fixed bg-[url(/images/heroBG.png)] scroll-smooth'>
-      <main className="max-w-[1550px] mx-auto">
+      <main className="mx-auto">
       <Animation id=''>
         <Home />
       </Animation>
