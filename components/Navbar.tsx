@@ -36,7 +36,7 @@ export default function Navbar() {
         <nav className={`fixed top-0 ${scrollPosition > 102 ? 'bg-white' : 'bg-transparent'} left-0 z-50 space-y-4 right-0 py-5`}>
             {scrollPosition < 102 && <section className='text-center hidden md:flex justify-center items-center'>
                     <Image 
-                    src={'/logocreativespace3.png'}
+                    src={'/logocreativespaceV1.png'}
                     alt='logo'
                     width={10000}
                     height={10000}

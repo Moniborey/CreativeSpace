@@ -14,7 +14,7 @@ export default function Home() {
             <section ref={parallaxRef} className='bg-white z-10 relative lg:w-[65%] xl:w-[55%] mx-auto md:py-24 py-10 md:gap-5 flex items-center justify-center flex-col font-light'>
                 <div className='border-[3px] md:hidden mb-5 border-black p-3 rounded-full'>
                 <Image
-                    src={'/logocreativespace3.png'}
+                    src={'/logocreativespaceV1.png'}
                     alt='logo'
                     width={10000}
                     height={10000}

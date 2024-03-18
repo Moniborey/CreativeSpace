@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel='icon' href='/logocreativespace3.png'/>
+        <link rel='icon' href='/logocreativespaceV1.png'/>
       </head>
       <body className="w-screen overflow-x-hidden ">
         <Navbar />
