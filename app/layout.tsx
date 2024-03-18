@@ -17,7 +17,7 @@ export default function RootLayout({
       <head>
         <link rel='icon' href='/logocreativespace3.png'/>
       </head>
-      <body className="w-screen overflow-x-hidden bg-fixed bg-[url(/images/heroBG.png)] ">
+      <body className="w-screen overflow-x-hidden bg-no-repeat bg-[url(/images/heroBG.png)] ">
         <Navbar />
         {children}
       </body>
