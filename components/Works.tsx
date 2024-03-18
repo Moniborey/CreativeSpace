@@ -45,7 +45,7 @@ export default function Works() {
     </div>
   );
   return (
-    <Section id='' isHscreen={false} className='grid gap-10 md:gap-14 lg:gap-20 mt-14 md:mt-28 lg:mt-0 lg:h-screen h-full place-content-center'>
+    <Section id='' isHscreen={false} className='grid gap-10 bg-blend-overlay md:gap-14 lg:gap-20 mt-14 md:mt-28 lg:mt-0 lg:h-screen h-full place-content-center'>
       <h1 className={`${epilogue.className} text-4xl lg:text-5xl text-gray-800 text-center`}>What We Do</h1>
       <section className="grid md:grid-cols-3 grid-cols-1 gap-10 md:gap-0 w-full">
         {
