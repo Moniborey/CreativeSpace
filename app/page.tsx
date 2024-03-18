@@ -8,7 +8,7 @@ import Works from '@/components/Works'
 export default function HomePage() {
 
   return (
-    <div className='scroll-smooth'>
+    <div>
       <main className="mx-auto max-w-[1650px]">
       <Animation id=''>
         <Home />
