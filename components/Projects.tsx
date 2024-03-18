@@ -56,7 +56,7 @@ export default function Projects() {
   );
   return (
     <Section isHscreen={false} id="projects" className="mt-14 md:mt-28 lg:mt-0">
-      <section className="flex flex-col sm:max-w-[700px] lg:max-w-max gap-10 md:gap-14 lg:gap-20 mx-auto px-5">
+      <section className="flex flex-col sm:max-w-[700px] lg:max-w-max gap-10 md:gap-14 lg:gap-20 mx-auto px-5 bg-blend-lighten">
         <h1
           className={` ${epilogue.className} text-4xl text-center text-gray-800 lg:text-5xl`}
         >
