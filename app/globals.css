@@ -17,13 +17,6 @@
 *{
   scroll-behavior: smooth;
 }
-/* .snap-y {
-  scroll-snap-type: y mandatory;
-}
-
-.section {
-  scroll-snap-align: start;
-} */
 
 
 body {
@@ -46,11 +39,7 @@ body {
 }
 
 
-/* body { */
-/* font-family: Adobe Myungjo;
-  font-style: normal;
-  font-weight: 200;
-} */
+
 
 @layer utilities {
   .text-balance {

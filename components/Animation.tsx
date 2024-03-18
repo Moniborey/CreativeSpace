@@ -34,8 +34,8 @@ interface ViewProps {
 function View({ inView, children }: ViewProps) {
     return (
         <motion.section
-            initial={{ opacity: 0, x: 50 }}
-            animate={inView ? { opacity: 1, x: 0 } : {}}
+            initial={{ opacity: 0, y: 50}}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.3, delay: 0.25, }}
         >
             {children}
