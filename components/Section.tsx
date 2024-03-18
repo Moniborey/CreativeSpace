@@ -19,7 +19,7 @@ export default function Section({
     // <Animation id="">
     <div
     id={id} 
-    className={`relative ${isHscreen && 'h-screen'} ${className || ''}`}
+    className={`relative bg-blend-soft-light ${isHscreen && 'h-screen'} ${className || ''}`}
     >
       {children}
     </div>
