@@ -18,12 +18,12 @@ const whatWeDo:whatWeDoProps[]=[
   },
   {
     header:"Professional Portfolio",
-    desc:"Check out our portfolio of diverse websites we've built for clients across different industries.",
+    desc:"We can create portfolio of diverse websites for clients across different industries.",
     img:"Skills Card Icon.png"
   },
   {
     header:"Excellent Communication",
-    desc:"We're here to listen to your needs and deliver a website that exceeds your expectations.",
+    desc:"We're here to listen to your needs and deliver a website that meets your expectations.",
     img:"Rectangle 21.png"
   },
 ]
