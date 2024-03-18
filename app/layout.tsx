@@ -4,7 +4,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Creative Space",
-  description: "",
+  description: "We design and develop website to your needs.",
 };
 
 export default function RootLayout({
@@ -14,6 +14,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel='icon' href='/logocreativespace3.png'/>
+      </head>
       <body className="w-screen overflow-x-hidden">
         <Navbar />
         {children}
