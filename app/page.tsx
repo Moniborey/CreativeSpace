@@ -8,21 +8,21 @@ import Works from '@/components/Works'
 export default function HomePage() {
 
   return (
-    <div className=''>
-      <div className='fixed -z-50 w-screen h-screen top-0 left-0 bg-[url(/images/heroBG.png)]'/>
+    <>
+      <div className='fixed -z-50 w-screen h-screen top-0 left-0 bg-[url(/images/heroBG.png)]' />
       <main className="mx-auto max-w-[1650px]">
-      <Animation id=''>
-        <Home />
-      </Animation>
-      <Animation id=''>
-        <Works />
-      </Animation>
-      <Projects />
+        <Animation id='home'>
+          <Home />
+        </Animation>
+        <Animation id=''>
+          <Works />
+        </Animation>
+        <Projects />
       </main>
-      <Animation id=''>
+      <Animation id='about'>
         <About />
       </Animation>
       <Footer />
-    </div>
+    </>
   )
 }

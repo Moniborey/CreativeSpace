@@ -14,29 +14,29 @@ const whatWeDo:whatWeDoProps[]=[
   {
     header:"Clean Design",
     desc:"We create clean and modern website designs that are easy on the eyes and simple to navigate.",
-    img:"Rectangle 25.png"
+    img:"61.-Web-Design.png"
   },
   {
     header:"Professional Portfolio",
-    desc:"We can create portfolio of diverse websites for clients across different industries.",
-    img:"Skills Card Icon.png"
+    desc:"We create portfolio websites for clients across different industries.",
+    img:"79.-Profile.png"
   },
   {
     header:"Excellent Communication",
     desc:"We're here to listen to your needs and deliver a website that meets your expectations.",
-    img:"Rectangle 21.png"
+    img:"02.-Communication.png"
   },
 ]
 
 export default function Works() {
   const Card = ({data}:{data:whatWeDoProps}) => (
-    <div className="flex flex-col gap-5 items-center ">
+    <div className="flex flex-col gap-5 items-center">
       <Image
         src={`/images/${data.img}`}
         width={20000}
         height={20000}
-        alt="idk"
-        className='md:size-28 size-24'
+        alt={data.header}
+        className='size-44 md:size-48'
       />
       <h1 className={` ${epilogue.className} text-xl lg:text-2xl whitespace-nowrap text-gray-800 font-semibold`}>{data.header}</h1>
       <p className={` ${epilogue.className} text-gray-500 text-xs md:text-sm w-4/5 text-center lg:w-3/5 px-5 md:px-0 mx-auto`}>

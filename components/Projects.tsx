@@ -9,7 +9,7 @@ const hashColor = {
   ui: "text-green-500",
   fullstack: "text-red-500",
   frontend: "text-blue-500",
-  portfolio: "text-black",
+  portfolio: "text-purple-500",
 };
 
 export default function Projects() {
@@ -32,23 +32,26 @@ export default function Projects() {
       </div>
       <div className={` ${epilogue.className} flex gap-3 flex-col `}>
         <div className="flex justify-between items-center">
-          <p className="text-sm sm:text-base md:text-xl">{project.title}</p>
+          <p className="text-base md:text-xl">{project.title}</p>
           <Link
             target="_blank"
             href={`https://${project.url}`}
-            className="hover:underline text-gray-500 text-xs sm:text-sm md:group-hover:animate-bounce"
+            className="underline underline-offset-2 text-gray-500 text-sm"
           >
             {project.url}
           </Link>
         </div>
-        <div className="flex items-center text-gray-500 -mt-3 text-sm gap-1">
+        <div className="flex items-center text-gray-500 -mt-3 text-xs md:text-sm gap-1">
           <h1 className={`${hashColor[project.type]}`}>#</h1>
           <h1>
             {project.type}
           </h1>
         </div>
-        <div className="flex items-center gap-1">
-          <p className=" text-sm text-gray-600">Tech Stacks:</p>
+        <p className="text-gray-600 text-sm md:hidden">
+          {project.desc}
+        </p>
+        <div className="md:flex hidden items-center gap-1">
+          <p className="md:text-sm text-xs text-gray-600">Built with :</p>
           <p className="text-xs text-gray-500 ">{project.techs}</p>
         </div>
       </div>

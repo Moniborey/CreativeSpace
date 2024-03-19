@@ -24,9 +24,7 @@ export default function About() {
                     alt="image"
                     className="w-[600px] "
                 />
- 
             </section>
-
         </Section>
     )
 }
