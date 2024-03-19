@@ -51,7 +51,7 @@ export default function Projects() {
           {project.desc}
         </p>
         <div className="md:flex hidden items-center gap-1">
-          <p className="md:text-sm text-xs text-gray-600">Built with :</p>
+          <p className="md:text-sm text-xs text-gray-600">Built With :</p>
           <p className="text-xs text-gray-500 ">{project.techs}</p>
         </div>
       </div>

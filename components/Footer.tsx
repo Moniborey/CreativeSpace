@@ -20,14 +20,14 @@ export default function Footer() {
         </p>
         <Link
           target="_blank"
-          href={""}
+          href={"https://www.facebook.com/profile.php?id=61557160213991"}
           className="md:py-4 py-2 border-b-2 flex items-center border-black"
         >
           <h1 className="md:px-10 px-5">Facebook</h1>
         </Link>
         <Link
           target="_blank"
-          href={""}
+          href={"https://www.instagram.com/creative.cs_/"}
           className="md:py-4 py-2 border-b-2 flex items-center border-black"
         >
           <h1 className="md:px-10 px-5">Instagram</h1>
@@ -42,7 +42,6 @@ export default function Footer() {
         <p className="md:px-10 px-5 my-5 md:my-10">
           [Currently] in Phnom Penh, Cambodia.
         </p>
-
       </div>
       <div
         className={`flex md:px-10 px-5 justify-center items-center  flex-col gap-2 text-xs md:justify-between md:flex-row md:text-base text-gray-500 ${epilogue.className}`}
