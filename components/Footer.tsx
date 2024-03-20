@@ -2,7 +2,6 @@ import React from "react";
 import Section from "./Section";
 import { epilogue } from "./Works";
 import Link from "next/link";
-import { Inter } from "next/font/google";
 
 export default function Footer() {
   return (
@@ -46,7 +45,7 @@ export default function Footer() {
       <div
         className={`flex md:px-10 px-5 justify-center items-center  flex-col gap-2 text-xs md:justify-between md:flex-row md:text-base text-gray-500 ${epilogue.className}`}
       >
-        <p>Copyright @2024 CreativeSpace All right resereved.</p>
+        <p>Copyright @2024 CreativeSpace All rights reserved.</p>
         <p>Version 0.1 </p>
       </div>
     </Section>

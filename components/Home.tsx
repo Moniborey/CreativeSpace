@@ -18,7 +18,7 @@ export default function Home() {
                     alt='logo'
                     width={10000}
                     height={10000}
-                    className='size-16'
+                    className='size-12'
                 />
                 </div>
                 <p className='md:text-5xl text-4xl text-gray-700'>Hi, We Are</p>
@@ -34,13 +34,6 @@ export default function Home() {
                         />
                     </ScrollParallax>
                 </div>
-                {/* <Image
-                    src={'/images/Star Purple.png'}
-                    alt='star'
-                    width={20000}
-                    height={20000}
-                    className='left-10 opacity-90 md:block hidden md:size-20 top-10 absolute'
-                /> */}
             </section>
             <BackgroundStars parallaxRef={parallaxRef} />
         </Section>
