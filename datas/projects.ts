@@ -35,14 +35,6 @@ const Datas: DatasI[] = [{
     type:'frontend',
     desc:'Quizzical is a trivia website featuring an experimental landing page design with bright bold color. (Not finished)'
 },{
-    title: 'Auto-Loan Form (test)',
-    img:'testDesignForm.png',
-    techStacks: ['nextjs','tailwindcss'],
-    techs:"NextJs, Tailwind",
-    url: 'hlbform.vercel.app',
-    type:'frontend',
-    desc:'This is a test form for calculating Auto-Loan.'
-},{
     title: 'Travel Camp',
     img:'travelUI.png',
     techStacks: ['react','tailwindcss'],
