@@ -10,7 +10,7 @@ export default function About() {
                 <div className="flex flex-col gap-5 lg:gap-7 md:gap-10 xl:gap-9 py-5 text-base md:text-lg">
                     <h1 className={`${epilogue.className} lg:text-5xl text-gray-800 text-4xl`}>About Us</h1>
                     <ul className=' text-gray-600 list-disc pl-4 space-y-2'>
-                        <li className={`${epilogue.className}  `}>We&apos;re a small group of students passionate about building awesome websites. As a startup freelance web development team, we&apos;re here to bring your ideas to life online. </li>
+                        <li className={`${epilogue.className}  `}>We&apos;re a small group of people passionate about building awesome websites. As a startup freelance web development team, we&apos;re here to bring your ideas to life online. </li>
                         <li className={`${epilogue.className}  `}>What sets us apart? Our fresh perspective and dedication to learning. As students, we&apos;re always eager to push boundaries and explore new possibilities.</li>
                     </ul>
                     <div className='w-full border border-gray-400 px-5'/> 
